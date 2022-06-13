@@ -1,0 +1,35 @@
+:root {
+    --celeste: #3498db;
+    --verde: #2ecc71;
+    --anaranjado: orangered;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 2rem;
+}
+
+button {
+    padding: 7 px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.celeste {
+    background-color: var(--celeste);
+}
+
+button.verde {
+    background-color: var(--verde);
+}
+
+button.anaranjado {
+    background-color: var(--anaranjado);
+}
